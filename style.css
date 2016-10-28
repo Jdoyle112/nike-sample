@@ -1,0 +1,365 @@
+body {
+
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+
+p, span{
+	font-family: "Helvetica Neue", Helvetica;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+
+/* nav */
+
+
+nav .secondary {
+	height: 39px;
+	line-height: 39px;
+	border-bottom: 1px solid #E5E5E5;
+	background: white;
+	color: #8D8D8D;
+	margin: 0;
+	padding: 0;
+}
+
+nav .secondary .left ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+nav .secondary .left ul li {
+	display: inline-block;
+	border-right: 1px solid #E5E5E5;
+}
+
+nav .secondary .left ul li a {
+	padding: 0 32px;
+	font-size: 12px;
+	color: #8D8D8D;
+}
+
+.nsg-glyph--jumpman {
+    font-size: 21px;
+}
+
+.nsg-glyph--logo-hurley {
+    font-size: 48px;
+    max-height: 21px;
+}
+
+.nsg-glyph--logo-converse {
+    font-size: 62px;
+    max-height: 21px;
+}
+
+.nsg-glyph--cart {
+	font-size: 23px;
+	line-height: 23px;
+}
+
+nav .secondary .right ul {
+	position: absolute;
+	right: 13px;
+	top: 0;
+}
+
+nav .secondary .right ul li {
+	padding: 0 11px;
+	border-bottom: 2px solid transparent;
+	font-size: 12px;
+	display: inline-block;
+}
+
+
+nav .primary {
+	display: table;
+    width: 100%;
+    padding: 0 32px 0 31px;
+    background-color: white;
+    border-bottom: 1px solid #E5E5E5;
+    min-width: 768px;
+}
+nav .primary>* {
+	display: table-cell;
+    height: 68px;
+}
+
+nav .primary .logo {
+	text-align: center;
+    vertical-align: middle;
+    width: 58px;
+}
+
+.nsg-glyph--swoosh {
+    font-size: 70px;
+    height: 68px;
+    width: 58px;
+}
+
+nav .primary .menu {
+	background-color: white;
+    text-align: center;
+    padding-left: 166px;
+    font-size: 0;
+}
+
+nav .primary .menu li {
+	display: inline-block;
+    border-bottom: 2px solid transparent;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+nav .primary .menu li a {
+	height: 66px;
+    line-height: 68px;
+    color: #111111;
+    font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+nav .primary .search {
+    position: relative;
+    vertical-align: middle;
+    width: 224px;
+}
+
+nav .primary .search input {
+-webkit-appearance: none;
+    z-index: 1;
+    height: 40px;
+    width: 194px;
+    margin-left: 30px;
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+    padding: 0px 31px 2px 41px;
+    text-align: left;
+    font-size: 13px;
+    overflow: hidden;
+    -webkit-transition: width 0.25s ease-in-out,margin-left 0.25s ease-in-out;
+    -moz-transition: width 0.25s ease-in-out,margin-left 0.25s ease-in-out;
+    -o-transition: width 0.25s ease-in-out,margin-left 0.25s ease-in-out;
+    transition: width .25s ease-in-out,margin-left .25s ease-in-out;
+    transition-delay: 0.25s;
+    font-family: sans-serif;
+}
+
+nav .primary .search label {
+	z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+nav .primary .search label span {
+	   position: absolute;
+    top: 50%;
+    left: 47px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 15px;
+    font-size: 23px;
+    color: #111111;
+    -webkit-transition: left 0.25s ease-in-out;
+    -moz-transition: left 0.25s ease-in-out;
+    -o-transition: left 0.25s ease-in-out;
+    transition: left .25s ease-in-out;
+    transition-delay: 0.25s;
+}
+
+
+
+/* main */
+
+
+
+/*section.main {
+	background: url(https://content.nike.com/content/dam/one-nike/en_lu/HO16/Basketball/SLP/1025/p1.jpg.transform/full-screen/p1.jpg);
+}*/
+
+section.main {
+	position: relative;
+}
+
+section.main .background img {
+	width: 100%;
+    height: auto;
+    min-width: 1000px;
+}
+
+section.main .content {
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+section.main .content .inner {
+	padding: 50px;
+	width: 40%;
+	position: absolute;
+	top: 27%;
+}
+
+section.main .content .inner h1 {
+	margin-bottom: .313em;
+	font-size: 40px;
+	color: white;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+
+section.main .content .inner p {
+	line-height: 1.2em;
+	letter-spacing: .03em;
+	font-size: 14px;
+	color: white;
+}
+
+section.main .media {
+	margin-top: 10px;
+}
+
+section.main .media a {
+	margin-top: 10px;
+	font-size: 12px;
+	background-color: #fff;
+    border-color: #e5e5e5;
+    color: #000;
+    text-align: center;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+
+/*  footer */
+
+
+section.footer {
+	background: #191919;
+
+}
+
+section.footer .container {
+	    padding: 42px 42px 0;
+    min-width: 684px;
+    max-width: 940px;
+    margin: 0 auto;
+    color: #999;
+}
+
+section.footer ul {
+	min-width: 140px;
+    margin-right: 20px;
+    float: left;
+    list-style: none;
+}
+
+section.footer .active {
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Oswald', sans-serif;
+	height: 28px;
+}
+
+section.footer ul li {
+	height: 28px;
+	font-size: 12px;
+	font-family: "Helvetica Neue", Helvetica;
+	font-weight: 400;
+	color: #999;
+}
+
+
+section.footer .col-xs-8 {
+	padding: 0;
+}
+
+
+section.footer .col-xs-4 {
+	padding: 0;
+	text-align: right;
+}
+
+
+section.footer .icons span {
+	font-size: 30px;
+	color: #444;
+	display: inline-block;
+
+}
+
+section.footer .meta {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 0 0 0;
+    border-top: 1px solid #444;
+    margin-top: 42px;
+    vertical-align: top;
+    position: relative;
+}
+
+section.footer .meta .left li {
+	padding: 0 12px 0 0;
+	display: inline-block;
+	font-size: 10px;
+}
+
+section.footer .meta .left  {
+	width: 50%;
+	float: left;
+	margin: 0;
+}
+
+section.footer .meta .right  {
+	width: 50%;
+	float: left;
+	margin: 0;
+	text-align: right;
+}
+section.footer .meta .right li {
+	padding: 0 0 0 30px;
+	display: inline-block;
+	font-size: 10px;
+}
+
+
+/* media queries */
+
+
+@media (max-width: 780px){
+	section.main .content .inner {
+		width: 100%;
+	}
+}
+
